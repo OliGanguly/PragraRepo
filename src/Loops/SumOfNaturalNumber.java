@@ -7,8 +7,7 @@ public class SumOfNaturalNumber {
             sum = sum + i;
             i++;
         }
-
-        System.out.println("Sum of natural numbers using while Loop" + " " + sum);
+        System.out.println("Sum of 10 natural numbers using while Loop" + " " + sum);
     }
     }
 
