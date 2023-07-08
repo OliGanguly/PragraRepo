@@ -21,8 +21,6 @@ public class SwitchWithNumber {
         } else {
              num=sc.nextInt();
         }
-
-
         int res;
         switch (num){
             case 1:res=no1+no2;
