@@ -4,3 +4,6 @@ public class Main {
         System.out.printf("Hello and JAVA!");
     }
 }
+
+//stops reading when see blank space - next()
+//solution is nextLine();

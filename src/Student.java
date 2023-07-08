@@ -7,7 +7,7 @@ public class Student {
         int x=10;
         int y=20;
         int sum=x+y;
-        int age=24;
+        int age=26;
         String name="Oli";
         long long_val=123_456_789;
         double sal=100000.78;
