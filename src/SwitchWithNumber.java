@@ -14,7 +14,14 @@ public class SwitchWithNumber {
         System.out.println("Enter Second No.");
         int no2=sc.nextInt();
         System.out.println("Enter Operation 1,2,3,4,5");
-        int num=sc.nextInt();
+//        int num=sc.nextInt();
+        int num=0;
+        if (!sc.hasNextInt()) {
+            System.out.println("Sorry Enter 1,2,3,4,5!");
+        } else {
+             num=sc.nextInt();
+        }
+
 
         int res;
         switch (num){
