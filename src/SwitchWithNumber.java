@@ -41,8 +41,6 @@ public class SwitchWithNumber {
                     System.out.println("Devision Result>"+no1+"%"+no2+"="+res);
                     break;
                 default:System.out.println("Invalid Symbol");
-
-
             }
             System.out.println("Do you want to Exit ? "+"Press Y/y for Exit" + "Press N/n to not exit");
             cus_reply=sc.next();
