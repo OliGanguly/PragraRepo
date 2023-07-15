@@ -6,7 +6,7 @@ public class EvenPragra {
         for(int i=1;i<=n;i++){
          if (i%2==0){
 //             System.out.println(n%2);
-             System.out.println("Even + "+i +"Pragra");
+             System.out.print("Pragra");
          }else{
              System.out.println(i);
          }
