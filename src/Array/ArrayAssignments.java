@@ -17,7 +17,8 @@ public class ArrayAssignments {
 //        System.out.println("After swaped : " + Arrays.toString(arr));
         reverse(arr);
         System.out.println("Reversed Array : " + Arrays.toString(arr));
-        System.out.println("Element :" +searchElement(arr, sc));
+//        System.out.println("Element :" +searchElement(arr, sc));
+        System.out.println("Binary Search Element : "+binarySearch(arr,sc));
     }
     public static void takeInput(int arr[],Scanner sc){
         for (int i=0;i<arr.length;i++){
@@ -71,6 +72,24 @@ public class ArrayAssignments {
 
         System.out.println("Not Found");
         return -1;
+    }
+    static public int binarySearch(int arr [] , Scanner sc){
+    int start =0;
+    int end = arr.length-1;
+        System.out.println("What u want to search ?");
+        int target = sc.nextInt();
+    while (start<=end){
+        int mid = start + (end-start)/2;
+        if(target>arr[mid]){
+            start=mid+1;
+        }else if(target<arr[mid]){
+            end=mid-1;
+        }else {
+            return mid;
+        }
+    }
+    return -1;
+
     }
 
 }
