@@ -40,3 +40,9 @@ class Example{
         System.out.println("Division : " + obj.substract());
     }
 }
+/**
+ * Interview
+ * Singleton class
+ * can you create a singletone class
+ */
+
