@@ -13,6 +13,11 @@ public class User {
         return age;
     }
 
+    public void makePayment(){
+        System.out.println(name + " you heve to pay by "+PaymentEnum.CREDIT + " or " +
+                PaymentEnum.DEBIT + " or " + PaymentEnum.MASTERCARD + " or " + PaymentEnum.PAYPAL + " way");
+    }
+
 }
 
 
